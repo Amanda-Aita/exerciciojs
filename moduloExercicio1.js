@@ -1,4 +1,4 @@
-export function exercicio1 () {
+export function moduloExercicio1 () {
 
     console.log("Exercicio 1 - FOR")
 

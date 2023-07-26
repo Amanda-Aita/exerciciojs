@@ -1,8 +1,8 @@
-export function exercicio2 () {
+export function moduloExercicio2 () {
 
     console.log("Exercicio2 - FOR")
 
-    for(let contador = 0; contador <10; contador + 1) {
+    for(let contador = 2; contador <=10; contador += 2) {
         console.log("Boa noite")
     
     }

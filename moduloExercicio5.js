@@ -1,15 +1,16 @@
-export function exercicio1 () {
+import PromptSync from "prompt-sync"
+let prompt = PromptSync ();
 
-    console.log("Exercicio 1 - FOR")
+export function moduloExercicio5 () {
 
-    for (let contador = 1; contador <=10; contador++)
-     console.log(contador)
+    let primeiroNumero = parseInt( prompt('Digite o primeiro numero: ') )
+    let segundoNumero = parseInt( prompt('Digite o segundo numero: ') )
 
+    if (primeiroNumero > segundoNumero) {
+        console.log("O numero " + primeiroNumero + " é maior que " + segundoNumero)
+    } else if (segundoNumero > primeiroNumero){
+        console.log("O numero " + segundoNumero + " é maior que " + primeiroNumero)
+    } else {
+        console.log(`Os números ${primeiroNumero} e ${segundoNumero} são iguais`)
+    }
 }
-
-
-
-console.log(proximoNumero)
-numeroAnterior = numeroAtual
-numeroAtual = proximoNumero
-
